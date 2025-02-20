@@ -1,0 +1,197 @@
+
+body{
+    background: #c2e1de;
+    width: 100%;
+    height: 1180px;
+    padding: 30px;
+    padding-right: 70px;
+    padding-top: 0;
+}
+
+.secProgress {
+    width: 1920px;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    appearance: none;
+}
+
+.secProgress::-webkit-progress-bar{
+    background: #f0f0f078;
+    transition: width 0.3s ease-in-out;
+}
+
+.secProgress::-webkit-progress-value{
+    transition: width 0.7s ease-in-out;
+    border-radius: 3em;
+    background: #2c3e50;
+}
+
+.titleFlex {
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: row;
+    display: flex;
+    justify-content: space-between;*/
+}
+
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e9f4f6b8;
+    margin: 0;
+    margin-top: -50px;
+    border-radius: 0;
+    height: 590px;
+    margin-bottom: 0;
+    box-shadow:  1px 1px 60px #0000001c;
+}
+
+img{
+    z-index: -1;
+    height: auto;
+}
+
+.insideBox {
+    /*background-color: ivory;*/
+    margin: 3em;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 33%;
+}
+
+.clockBox {    
+    margin: 3em;
+    text-align: right;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: 400px;
+    
+}
+
+.clockDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+
+.dDayBox {
+    margin: 3em;
+    margin-left: 60px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.Clock {
+    font-family: 'LINESeedKR-Bd';
+    font-size: 190px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0.2em;
+    text-shadow: 1px 1px 23px #b5b5b5;
+    color: #2c3e50;
+}
+
+.ClockSecond {
+    color: #4E5C39;
+    font-family: 'LINESeedKR-Bd';
+    font-size:  140px;
+    margin-top: 30px;
+    margin-bottom: 0.2em;
+    margin-left: 30px;
+    text-shadow:  1px 1px 23px #b5b5b5;    
+    width: 320px;
+}
+
+.dDayTitle{
+    font-size: 2.3em;
+    font-family: 'LINESeedKR-Rg';
+    margin-bottom: 0;
+}
+
+.dDay {
+    font-family: 'LINESeedKR-Bd';
+    font-size: 6em;
+    margin: 0;
+}
+
+.d{
+    margin-right:3em;
+    margin-bottom: 0;
+}
+
+.info{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'LINESeedKR-Th';
+    font-weight: 300;
+    color: black;
+}
+
+h2{
+    color:#2c3e50;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'LINESeedKR-Bd';
+    margin: 0;
+    text-align: center;
+    color:#2c3e50;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'LINESeedKR-Rg';
+    text-align: center;
+    color:#2c3e50;
+    line-height: 1.5em;
+}
+
+h5 {
+    font-size: 2em;
+    font-family: 'LINESeedKR-Rg';
+    margin-bottom: 0.3em;
+    color:#2c3e50;
+}
+
+.ampm{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+.CSSdate{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2') format('woff2');
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'LINESeedKR-Th';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Th.woff2') format('woff2');
+    font-style: normal;
+}
